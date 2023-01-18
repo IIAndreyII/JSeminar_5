@@ -3,12 +3,15 @@ package ru.gb.jseminar;
 import java.util.*;
 
 public class Task0 {
+    //1111111111111111111111111111111111
+
 
     // Дана последовательность чисел. Необходимо вернуть сумму уникальных чисел
     public static void main(final String[] args) {
         List<Integer> array = new ArrayList<>(Arrays.asList(1, 2, 4, 5, 2, 9, 7));
         Task0 db = new Task0();
         System.out.println(db.getSumOfUniqueValues(array));
+        System.out.println(12345);
 
     }
 
